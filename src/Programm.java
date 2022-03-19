@@ -1,12 +1,11 @@
 public class Programm {
-
     public static void main(String[] args) {
 
     System.out.println("\nBankenÜbersicht:");
     DeutscheBank dbank = new DeutscheBank("Deutsche Bank", 2000);
     Commerzbank cbank = new Commerzbank("Commerzbank", 1000);
     KfW kbank = new KfW("KfW", 500);
-    UniCredit ubank = new UniCredit("UniCredit", 1500);
+    //UniCredit ubank = new UniCredit("UniCredit", 1500);
 
     System.out.println("\nKundenÜbersicht:");
     Person P1 = new Person("Hans", "Meier", 5000);
@@ -22,5 +21,4 @@ public class Programm {
     Bank bank2 = new Bank(P2, cbank);
     Bank bank3 = new Bank(P3, kbank);
     }
-
 }
