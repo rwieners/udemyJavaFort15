@@ -21,7 +21,6 @@ public class Programm {
     Bank bank1 = new Bank(P1, dbank);
     Bank bank2 = new Bank(P2, cbank);
     Bank bank3 = new Bank(P3, kbank);
-
     }
 
 }
